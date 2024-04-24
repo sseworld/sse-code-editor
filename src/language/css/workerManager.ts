@@ -5,7 +5,7 @@
 
 import { LanguageServiceDefaults } from './sse.contribution';
 import type { CSSWorker } from './cssWorker';
-import { editor, IDisposable, Uri } from '../../fillers/monaco-editor-core';
+import { editor, IDisposable, Uri } from '../../fillers/sse-editor-core';
 
 const STOP_WHEN_IDLE_FOR = 2 * 60 * 1000; // 2min
 

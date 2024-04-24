@@ -7,7 +7,7 @@ import { WorkerManager } from './workerManager';
 import type { TypeScriptWorker } from './tsWorker';
 import { LanguageServiceDefaults } from './sse.contribution';
 import * as languageFeatures from './languageFeatures';
-import { languages, IDisposable, Uri } from '../../fillers/monaco-editor-core';
+import { languages, IDisposable, Uri } from '../../fillers/sse-editor-core';
 
 let javaScriptWorker: (...uris: Uri[]) => Promise<TypeScriptWorker>;
 let typeScriptWorker: (...uris: Uri[]) => Promise<TypeScriptWorker>;
