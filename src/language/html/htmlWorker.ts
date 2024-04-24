@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { worker } from '../../fillers/sse-editor-core';
+import { worker } from '../../fillers/sse-editor-core'
 import * as htmlService from 'vscode-html-languageservice';
 import type { Options } from './sse.contribution';
 import { IHTMLDataProvider } from 'vscode-html-languageservice';

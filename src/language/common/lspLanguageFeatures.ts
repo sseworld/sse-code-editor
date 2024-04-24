@@ -16,7 +16,7 @@ import {
 	IDisposable,
 	MarkerSeverity,
 	IEvent
-} from '../../fillers/sse-editor-core';
+} from '../../fillers/sse-editor-core'
 
 export interface WorkerAccessor<T> {
 	(...more: Uri[]): Promise<T>;

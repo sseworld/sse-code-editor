@@ -7,7 +7,7 @@ import { WorkerManager } from './workerManager';
 import type { HTMLWorker } from './htmlWorker';
 import { LanguageServiceDefaults } from './sse.contribution';
 import * as languageFeatures from '../common/lspLanguageFeatures';
-import { Uri, IDisposable, languages } from '../../fillers/sse-editor-core';
+import { Uri, IDisposable, languages } from '../../fillers/sse-editor-core'
 
 class HTMLCompletionAdapter extends languageFeatures.CompletionAdapter<HTMLWorker> {
 	constructor(worker: languageFeatures.WorkerAccessor<HTMLWorker>) {

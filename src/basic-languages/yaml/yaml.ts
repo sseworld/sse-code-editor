@@ -1,4 +1,4 @@
-import { languages } from '../../fillers/sse-editor-core';
+import { languages } from '../../fillers/sse-editor-core'
 
 export const conf: languages.LanguageConfiguration = {
 	comments: {

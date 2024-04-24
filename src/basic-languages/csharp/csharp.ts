@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import type { languages } from '../../fillers/sse-editor-core';
+import type { languages } from '../../fillers/sse-editor-core'
 
 export const conf: languages.LanguageConfiguration = {
 	wordPattern:

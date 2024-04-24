@@ -8,7 +8,7 @@ import type { JSONWorker } from './jsonWorker';
 import { LanguageServiceDefaults } from './sse.contribution';
 import * as languageFeatures from '../common/lspLanguageFeatures';
 import { createTokenizationSupport } from './tokenization';
-import { Uri, IDisposable, languages, editor } from '../../fillers/sse-editor-core';
+import { Uri, IDisposable, languages, editor } from '../../fillers/sse-editor-core'
 
 let worker: languageFeatures.WorkerAccessor<JSONWorker>;
 

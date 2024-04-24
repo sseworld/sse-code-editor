@@ -7,7 +7,7 @@ import { WorkerManager } from './workerManager';
 import type { CSSWorker } from './cssWorker';
 import { LanguageServiceDefaults } from './sse.contribution';
 import * as languageFeatures from '../common/lspLanguageFeatures';
-import { Uri, IDisposable, languages } from '../../fillers/sse-editor-core';
+import { Uri, IDisposable, languages } from '../../fillers/sse-editor-core'
 
 export function setupMode(defaults: LanguageServiceDefaults): IDisposable {
 	const disposables: IDisposable[] = [];

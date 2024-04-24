@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 
 import * as jsonService from 'vscode-json-languageservice';
-import type { worker } from '../../fillers/sse-editor-core';
+import type { worker } from '../../fillers/sse-editor-core'
 import { URI } from 'vscode-uri';
 import { DiagnosticsOptions } from './sse.contribution';
 

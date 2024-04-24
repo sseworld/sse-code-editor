@@ -1,7 +1,7 @@
 // Copyright (c) SSE World.
 // Licensed under the MIT License.
 
-import type { languages } from '../../fillers/sse-editor-core';
+import type { languages } from '../../fillers/sse-editor-core'
 
 const namedLiterals = ['true', 'false'];
 

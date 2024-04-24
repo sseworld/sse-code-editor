@@ -23,7 +23,7 @@ import {
 	IRange,
 	MarkerTag,
 	MarkerSeverity
-} from '../../fillers/sse-editor-core';
+} from '../../fillers/sse-editor-core'
 
 //#region utils copied from typescript to prevent loading the entire typescriptServices ---
 

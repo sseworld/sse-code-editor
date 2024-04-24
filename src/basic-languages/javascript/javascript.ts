@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 
 import { conf as tsConf, language as tsLanguage } from '../typescript/typescript';
-import type { languages } from '../../fillers/sse-editor-core';
+import type { languages } from '../../fillers/sse-editor-core'
 
 export const conf: languages.LanguageConfiguration = tsConf;
 
